@@ -33,7 +33,7 @@ jobs:
       - run: cd backend && npm install
 
       # Run the tests.
-      - run: cd backend && npm run build && npm run test
+      - run: cd backend && npm test
 
       # Run the linter.
       - run: cd backend && npm run lint
